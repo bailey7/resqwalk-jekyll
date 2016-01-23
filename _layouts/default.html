@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <title>ResQwalk Homepage</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/resqwalk.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  <nav class="top-navigation">
+    <div class="content">
+      <ul class="links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="resqwalk-faqs.html">FAQS</a></li>
+        <li><a href="#">PRESS</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="resqwalk-contact.html">CONTACT</a></li>
+        <li><a href="resqwalk-legal.html">LEGAL</a></li>
+      </ul>
+      <img class="logo" src="images/resqwalk-logo.jpg" alt="KARMA" width="300">
     </div>
+  </nav>
 
-    {% include footer.html %}
+  {{content}}
 
-  </body>
+  <footer class="social">
+    <div class="content">
+      <h2>FOLLOW US ON</h2>
+      <ul class="icons">
+        <li class="twitter"><a href="https://twitter.com/resqwalk"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/ResQwalk/"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/resqwalk/"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li class="pinterest"><a href="https://www.pinterest.com/resqwalk/"><i class="fa fa-pinterest fa-2x"></i></a></li>
+      </ul>
+    </div>
+    <div class="copy" style="padding-top: 0px; font-style: italic; padding-bottom: 15ps">© ResQthreads LLC</div>
+  </footer>
 
+</body>
 </html>

@@ -2,22 +2,49 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <section class="background-home">
+    <a href="https://itunes.apple.com/us/app/resqwalk/id889050235?mt=8"><img src="images/appstore.png" alt="Appstore" width="150" style="padding-top: 50px; padding-left: 25px"></a></li>
+    <a href="https://play.google.com/store/apps/details?id=com.resqwalk"><img src="images/googleplay.png" alt="GooglePlay" width="150"></a></li>
+  </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <section class="press">
+    <div class="content">
+      <h2>AS SEEN IN</h2>
+      <ul class="press-logos">
+        <li><a href="http://www.forbes.com/sites/teresagenaro/2015/12/01/with-resqwalk-donate-to-animal-rescue-on-givingtuesday-without-spending-a-cent/#2715e4857a0b310f9d6b4470"><img src="images/forbes.jpg" alt="Forbes" width="150"></a></li>
+        <li><a href="http://globalnews.ca/news/1452974/app-raises-money-for-sask-animal-rescues-just-by-walking/"><img src="images/global-news.jpg" alt="Global News" width="150"></a></li>
+        <li><a href="http://newyork.cbslocal.com/2014/12/06/new-mobile-app-helps-shelter-pets-in-nyc-and-across-the-country/"><img src="images/cbs-ny.jpg" alt="CBS New York" width="150"></a></li>
+        <li><a href="http://www.vetstreet.com/our-pet-experts/mobile-apps-support-pet-adoption"><img src="images/vetstreet-logo.jpg" alt="Vetstreet" width="150"></a></li>
+        <li><a href="http://www.thedenverchannel.com/thenow/app-pairs-fitness-and-fundraising-by-turning-your-steps-into-donations-for-animal-rescues"><img src="images/abc7-logo.jpg" alt="ABC7" width="140"></a></li>
+      </div>
+    </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <section class="status">
+      <div class="content">
+        <ul class="breakout">
+          <li><h2>2.8M</h2><div class="caption"><p>Miles ResQwalked</p></div></li>  
+          <li><h2>95.5K</h2><div class="caption"><p>Dollars Distributed</p></div></li>
+          <li><h2>5.5K</h2><div class="caption"><p>Worth of Products Given Away</p></div></li>
+        </div>
+      </section>
 
-</div>
+      <section class="description">
+        <div class="content">
+          <h2>What is ResQwalk?</h2>
+          <p>ResQwalk is a FREE mobile app that enables you to raise resources for animal welfare organizations, simply by walking.</p>
+          <hr>
+          <h2>How does it work?</h2>
+          <p>At the beginning of each month we announce a ResQpool. In order to earn part of the pool for your favorite organization, simply download the app, press start, and get moving!</p>
+          <hr>
+          <h2>Who funds the ResQpool?</h2>
+          <p>The ResQpool is funded by our generous corporate sponsors. We lovingly refer to them as ResQsponsors.</p>
+        </div>
+        <hr>
+        <h2>How can my animal welfare organization sign up?</h2>
+        <p>Becoming a partner on the ResQwalk app is free and easy!</p>
+        <p><a href="http://resqwalk.com/partner-application/">Sign Up Here</a></p>
+        <hr>
+      </div>
+    </section>
