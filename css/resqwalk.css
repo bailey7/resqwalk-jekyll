@@ -1,0 +1,327 @@
+body {
+font-family: 'Source Sans Pro', sans-serif;
+max-width: 1140px;
+margin: 0 auto 1.6em;}
+
+
+   /* styles for top navigation */
+.top-navigation {
+background-color: #fff;
+margin-top: 0em;
+position: relative;
+width: 100%;}
+
+.top-navigation > .content {
+width: 95%;
+height: 130px; margin: 0 auto;}
+
+.top-navigation .links {
+float: right;
+color: #838994;
+font-size: 16px;
+margin-top: 93px;}
+
+.top-navigation .links li {
+display: inline-block;
+margin-left: 25px;}
+
+.top-navigation .logo {
+padding-top: 25px}
+
+.top-navigation .links .active {
+color: #4c5058;
+font-weight: 500;}
+
+.top-navigation .links li:hover {
+cursor: pointer;
+color: #4c5058;
+font-weight: bold;
+text-decoration: none}
+
+.links a {
+text-decoration: none;
+color: #838994;}
+
+
+/* styles for footer */
+
+.social .icons > li {
+display: inline-block;
+width: 2.5rem;
+padding: 0.625rem 0;
+padding-left: 0;
+text-align: center;}
+
+.social .icons {
+padding-left: 0;}
+
+.icons i {
+color: #9976b5;}
+
+.social {
+text-align: center;
+padding-top: 0px;
+text-align: center;
+color: #838994;}
+
+.social h2 {
+padding-top: 15;}
+
+
+
+/* styles for homepage */
+
+.background-home {
+background-image: url(../images/dog-man.jpg);
+background-size: cover;
+background-repeat: none;
+height: 700px;}
+
+.press {
+padding-top: 5px;
+font-size: 22px;
+text-align: center;}
+
+.press-logos > li {
+display: inline-block;
+width: 18%;}
+
+.press-logos {
+padding-left: 0em;
+margin-top: -10}
+
+.press h2 {
+font-size: 22;
+font-style: italic;
+font-weight: lighter;
+color: #838994;}
+
+.status {
+padding-top: 0px;
+text-align: center;
+background-color: #9976b5;
+color: white;}
+
+.status h2 {
+font-size: 72px;
+margin: 15;}
+
+.status p {
+font-size: 20px;}
+
+.breakout > li {
+display: inline-block;
+width: 30%;}
+
+.breakout {padding-left: 0em}
+
+.description {
+text-align: center;
+margin-top: 50px;}
+
+.description h2 {
+font-size: 22;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0}
+
+.description p {
+font-size: 16;
+color: #838994;
+font-weight: normal;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;}
+
+.description hr {
+max-width: 80%;}
+
+.description a {
+text-decoration: none;
+color: white;
+background-color: #9976b5;
+display: inline-block;
+padding: 1em;
+border-radius: 1em;
+font-size: 22px;}
+
+/* styles for FAQs Page */
+
+.background-faqs {
+background-image: url(../images/bulldogs.jpg);
+background-size: cover;
+background-repeat: none;
+height: 400px;}
+
+.description-faqs {
+text-align: left;}
+
+.description-faqs h2 {
+font-size: 36;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0;}
+
+.description-faqs h3 {
+font-size: 18;
+color: #3c3b3c;
+font-weight: 600;}
+
+.description-faqs p {
+font-size: 16;
+color: #838994;
+font-weight: normal;
+font-style: italic;}
+
+.description-faqs .content {
+margin-left: 50;}
+
+/* styles for Contact Page */
+
+.background-contact {
+background-image: url(../images/orange-cat.jpg);
+background-size: cover;
+background-repeat: none;
+height: 400px}
+
+.background-contact .content {
+margin-left: auto;
+margin-right: auto;
+text-align: center}
+
+.description-contact h2 {
+font-size: 36;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0;
+text-decoration: underline;}
+
+.description-contact h3 {
+font-size: 18;
+color: #3c3b3c;
+font-weight: 600;
+margin: 30 0}
+
+.description-contact p {
+font-size: 16;
+color: #838994;
+font-weight: normal;
+font-style: italic;
+margin-left: auto;
+margin-right: auto;}
+
+.description-contact hr {
+max-width: 80%;}
+
+.description-contact div {
+	text-align: center}
+
+/* styles for Legal Page */
+
+.background-legal {
+background-image: url(../images/rabbit-grass.jpg);
+background-size: cover;
+background-repeat: none;
+height: 400px;
+text-align: left;}
+
+.description-legal h2 {
+font-size: 36;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0;
+text-decoration: underline;}
+
+.description-legal h3 {
+font-size: 18;
+color: #3c3b3c;
+font-weight: 600;
+margin: 30 0}
+
+.description-legal p {
+font-size: 16;
+color: #838994;
+font-weight: normal;
+font-style: italic;
+margin-left: auto;
+margin-right: auto;}
+
+.description-legal hr {
+max-width: 80%;}
+
+.description-legal .content {
+max-width: 80%;
+margin: 50}
+
+/* styles for Team Page */
+
+.background-team {
+background-image: url(../images/lions.jpg);
+background-size: cover;
+background-repeat: none;
+height: 400px;
+text-align: left;}
+
+.team-pictures {
+padding-top: 5px;
+font-size: 16px;
+text-align: center;}
+
+.headshots > li {
+display: inline-block;
+width: 33%;
+float: left}
+
+.headshots {
+padding-left: 0em;
+margin-top: -10}
+
+.team-pictures h2 {
+font-size: 36;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0;
+text-decoration: underline;}
+
+/* styles for Press Page */
+
+.background-press {
+background-image: url(../images/kitty-hat.jpg);
+background-size: cover;
+background-repeat: none;
+height: 400px;
+text-align: left;}
+
+.description-press {
+text-align: left;
+margin: 50 200 0 100;}
+
+.description-press h2 {
+font-size: 36;
+color: #3c3b3c;
+font-weight: normal;
+text-transform: uppercase;
+margin: 30 0;
+text-decoration: underline;}
+
+.description-presss h3 {
+font-size: 18;
+color: #3c3b3c;
+font-weight: 600;
+margin: 30 0}
+
+.description-press p {
+font-size: 16;
+color: #838994;
+font-weight: normal;
+font-style: italic;}
+
+.description-press .content a {
+text-decoration: none;
+color: #9976b5;}
+
